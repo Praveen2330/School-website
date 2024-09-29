@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𝓟𝓝 𝓟𝓤𝓑𝓛𝓘𝓒 𝓢𝓒𝓗𝓞𝓞l</title>
+  <!-- TailwindCSS CDN -->
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="bgimage">
+  <!-- Home Section -->
+  <header class="bg-white p-4 shadow">
+    <div class="container mx-auto">
+        <img src="assets/new-logo.png" alt="School Logo" class="h-16">
+      <h1 class="text-3xl font-bold text-center">𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓽𝓸 𝓟𝓝 𝓟𝓾𝓫𝓵𝓲𝓬 𝓢𝓬𝓱𝓸𝓸𝓵</h1>
+      <p class="text-center mt-2">Your hub for school-related information and resources.</p>
+    </div>
+  </header>
+
+  <!-- Announcements Section -->
+  <section class="container mx-auto mt-8">
+    <h2 class="text-2xl font-bold text-center">Announcements</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold">New Academic Year Begins!</h3>
+        <p class="text-gray-600">Date: September 15, 2024</p>
+        <p>The new academic year is starting soon. Check out the schedule.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold">Annual Sports Meet</h3>
+        <p class="text-gray-600">Date: October 10, 2024</p>
+        <p>Join us for the annual sports event at the school grounds.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold">Annual Sports Meet</h3>
+        <p class="text-gray-600">Date: October 10, 2024</p>
+        <p>Join us for the annual sports event at the school grounds.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navigation Bar -->
+  <nav class="bg-blue-800 text-white p-2 border-2 border-white rounded-xl py-4">
+    <div class="container mx-auto flex justify-around">
+      <a href="#home" class="hover:underline p-2 border-2 border-white rounded-xl">Home</a>
+      <a href="#about" class="hover:underline p-2 border-2 border-white rounded-xl">About Us</a>
+      <a href="#academics" class="hover:underline p-2 border-2 border-white rounded-xl">Academics</a>
+      <a href="#gallery" class="hover:underline p-2 border-2 border-white rounded-xl">Gallery</a>
+      <a href="#contact" class="hover:underline p-2 border-2 border-white rounded-xl">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- About Us Section -->
+  <section id="about" class="container mx-auto mt-8">
+    <h2 class="text-2xl font-bold text-center">About Us</h2>
+    <p class="text-center mt-2">Learn more about our school's history, mission, and vision.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="assets/praveen.jpg" alt="Principal" class="rounded-full h-24 mx-auto">
+        <h3 class="font-semibold text-center">Mr PRAVEEN Btech.,</h3>
+        <p class="text-center">Principal</p>
+      </div>
+      <!-- Add more leadership team members here -->
+    </div>
+  </section>
+
+  <!-- Academics Section -->
+  <section id="academics" class="container mx-auto mt-8">
+    <h2 class="text-2xl font-bold text-center">Academics</h2>
+    <table class="min-w-full mt-4 bg-white shadow rounded-lg">
+      <thead>
+        <tr>
+          <th class="py-3">Period</th>
+          <th class="py-3">Time</th>
+          <th class="py-3">Subject</th>
+          <th class="py-3">Teacher</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="py-3 text-center">1</td>
+          <td class="py-3 text-center">9:00-10:00</td>
+          <td class="py-3 text-center">Math</td>
+          <td class="py-3 text-center">Mrs Charu</td>
+        </tr>
+        <tr>
+          <td class="py-3 text-center">2</td>
+          <td class="py-3 text-center">10:00-11:00</td>
+          <td class="py-3 text-center">English</td>
+          <td class="py-3 text-center">Mrs Kirthika</td>
+        </tr>
+        <tr>
+          <td class="py-3 text-center">3</td>
+          <td class="py-3 text-center">11:00-12:00</td>
+          <td class="py-3 text-center">Social Science</td>
+          <td class="py-3 text-center">Mr Vijay</td></tr>
+        </tr>
+        <tr>
+            <td class="py-3 text-center">4</td>
+            <td class="py-3 text-center">01:00-02:00</td>
+            <td class="py-3 text-center">Physics</td>
+            <td class="py-3 text-center">Mr Sunil</td></tr>
+          </tr>
+        <!-- Add more periods here -->
+      </tbody>
+    </table>
+    <div class="mt-4">
+      <h3 class="font-semibold">Downloadable Resources</h3>
+      <ul>
+        <li><a href="assets/study-material1.pdf" class="text-blue-600 hover:underline">Study Material 1 (PDF)</a></li>
+        <li><a href="assets/study-material2.pdf" class="text-blue-600 hover:underline">Study Material 2 (PDF)</a></li>
+        <li><a href="assets/study-material3.pdf" class="text-blue-600 hover:underline">Study Material 3 (PDF)</a></li>
+        <li><a href="assets/study-material4.pdf" class="text-blue-600 hover:underline">Study Material 4 (PDF)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+   <section id="gallery" class="container mx-auto mt-8">
+    <h2 class="text-2xl font-bold text-center">Gallery</h2>
+    <div class="flex flex-col items-center mt-4">
+      <img src="assets/school pic1.jpg" alt="school pic1" class="rounded-lg mb-4 w-100 max-h-max"> 
+      <img src="assets/classroom2.png" alt="classroom2" class="rounded-lg mb-4 w-100 h-50"> 
+      <img src="assets/Techpark3.jpg" alt="Techpark3" class="rounded-lg mb-4 w-41 h-65"> 
+      <iframe  class="max-w-full h-auto aspect-ratio-16:9" src="https://www.youtube.com/player_api"></iframe>
+
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="container mx-auto mt-8">
+    <h2 class="text-2xl font-bold text-center">Contact Us</h2>
+    <form class="mt-4">
+      <input type="text" placeholder="Name" class="p-2 border rounded w-full mb-4" required>
+      <input type="email" placeholder="Email" class="p-2 border rounded w-full mb-4" required>
+      <input type="tel" placeholder="Phone Number" class="p-2 border rounded w-full mb-4" required>
+      <textarea placeholder="Message" class="p-2 border rounded w-full mb-4" rows="4" required></textarea>
+      <button type="submit" class="bg-blue-800 text-white p-2 border-3 rounded-xl">Send Message</button>
+    </form>
+</div>
+    <div class="mt-4">
+      <p><strong>Address:</strong> [School's Address]</p>
+      <p><strong>Phone Number:</strong> +91-7904741422</p>
+      <p><strong>Email:</strong> pnpublic@schoolname.com</p>
+      <div class="mt-4">
+        <h3>Location:</h3>
+        <iframe class="w-full h-60 rounded-lg" src="https://www.google.com/maps/embed?pb=!YOUR_MAP_EMBED_LINK" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2024 P.N PUBLIC SCHOOL. All rights reserved.</p>
+  </footer>
+
+ 
+</body>
+</html>

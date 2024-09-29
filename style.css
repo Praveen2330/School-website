@@ -1,0 +1,122 @@
+/* styles.css */
+
+/* Set a global font family */
+body {
+    font-family: 'Arial', sans-serif; /* Fallback to a sans-serif font */
+}
+
+/* Set the background color and text color */
+body {
+    background-color: #f0f4f8; /* Light background color */
+    color: #333; /* Dark color for text */
+}
+
+/* Header styles */
+header {
+    background-color: #6ab04c; /* Green background */
+    color: white;
+}
+
+/* Custom styles for headings */
+h1, h2, h3 {
+    color: #333; /* Dark color for headings */
+}
+
+/* Style for the navigation bar */
+nav {
+    background-color: #2d3436; /* Dark background for the nav */
+}
+
+nav a {
+    color: #ffffff; /* White text for nav links */
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #636e72; /* Lighter shade on hover */
+}
+
+/* Announcements card styles */
+.announcement-card {
+    background-color: #ffffff; /* White background for cards */
+    border: 2px solid #6ab04c; /* Green border */
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.announcement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+button {
+    background-color: #ff6b81; /* Coral pink */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #ff3d47; /* Darker pink on hover */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #6ab04c; /* Green border for table */
+    text-align: center;
+}
+
+th {
+    background-color: #2d3436; /* Dark header background */
+    color: #ffffff; /* White header text */
+}
+
+/* Footer styles */
+footer {
+    background-color: #2d3436; /* Dark footer */
+    color: white;
+    padding: 10px 0;
+}
+
+/* Form input styles */
+input, textarea {
+    border: 2px solid #6ab04c; /* Green border */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff6b81; /* Coral pink on focus */
+}
+
+/* Gallery image styles */
+.gallery-image {
+    border-radius: 8px;
+}
+
+/* Responsive styles */
+@media (max-width: 640px) {
+    nav {
+        flex-direction: column;
+    }
+}
+.bgimage{
+    #p1 {background-color: rgba(255, 0, 0, 0.3);}   /* red with opacity */
+    #p2 {background-color: rgba(0, 255, 0, 0.3);}   /* green with opacity */
+    #p3 {background-color: rgba(0, 0, 255, 0.3);}   /* blue with opacity */
+}
